@@ -29,7 +29,7 @@ byte colPins[COLS] = {4, 3, 2, 1}; //connect to the column pinouts of the keypad
 };
 
 int layer = 0; //LAYER 0 numpad keys, LAYER 1 normal keys
-int keyHolds[6] = {0, 0, 0, 0, 0}; //used for 6-key rollover, remembers button numbers that are held
+int keyHolds[6] = {0, 0, 0, 0, 0, 0}; //used for 6-key rollover, remembers button numbers that are held
 boolean funLockHeld[4] = { false, false, false, false };
 
 char inData[20]; // Allocate some space for the string
